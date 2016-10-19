@@ -1,0 +1,25 @@
+{
+    "name": "@imp/fit-for-the-cure",
+    "version": "1.0.0",
+    "sdkVersion": "1.6.0",
+    "description": "Macy's @imp/fit-for-the-cure campaign",
+    "main": "index.html",
+    "scripts": {
+      "start": "node server",
+      "postinstall": "gulp"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://gitlab.devops.fds.com/imp/@imp/fit-for-the-cure.git"
+    },
+    "author": "Macy's Interactive Development",
+    "license": "UNLICENSED",
+    "homepage": "https://code.devops.fds.com/imp/@imp/fit-for-the-cure",
+    "dependencies": {
+      "gulp": "^3.9.1",
+      "gulp-compile-handlebars": "^0.6.1",
+      "gulp-rename": "^1.2.2",
+      "bluebird": "^3.0.5",
+      "request": "^2.69.0"
+    }
+}
